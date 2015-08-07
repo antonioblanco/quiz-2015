@@ -28,7 +28,7 @@ exports.show = function(req, res){
 
 //GET /quizes:id/answer
 exports.answer = function(req, res){
-    var reaultado ='Incorrecto';
+    var resultado ='Incorrecto';
     if (req.query.respuesta === req.quiz.respuesta){
 		resultado = 'Correcto';
     }
